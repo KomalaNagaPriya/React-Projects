@@ -1,0 +1,386 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================================================================= */
+/* Navbar */
+
+nav{
+  width:100%;
+  height:50px;
+  align-items: center;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+}
+#a1{
+  font-size: 20px;
+  margin-left: 20px;
+}
+#nav{
+  width:50%;
+  padding:70px;
+}
+ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+#logbutt{
+  color:#f19537;
+  background-color: transparent;
+  border:none;
+  font-size: 18px;
+}
+#regbutt{
+  padding: 5px;
+  border:none;
+  background-color: #f19537;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+#home:hover{
+  color: #f19537;
+}
+
+/* ============================================================= */
+/* Login page */
+
+#log{
+  width:465px;
+  height:339px;
+  margin:60px auto;
+  padding:48px;
+  border-radius: .3rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  display: flex column;
+}
+#log input{
+  width:100%;
+  padding:16px 12px;
+  margin:0px 0px 15px;
+}
+#log button,#reg button{
+  background-color: #f19537;
+  padding:10px 12px;
+  font-size: 16px;
+  border:none;
+  color:#fff;
+  width:100%;
+  text-align: center;
+  border-radius: .3rem;
+  margin:0px 0px 10px;
+}
+#log p{
+  font-size: 16px;
+  color:rgba(0, 0, 0, 0.6);
+}
+#log span{
+  color:#f19537;
+  cursor: pointer;
+
+}
+#log h2{
+  color:#f19537;
+  font-size: 27px;
+  margin:0px 0px 20px;
+}
+
+/* ================================================================ */
+/* Registration Page */
+
+#reg{
+  width:465px;
+  height:400px;
+  margin:60px auto;
+  padding:48px;
+  border-radius: .3rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  display: flex column;
+}
+#reg input{
+  width:100%;
+  padding:16px 12px;
+  margin:0px 0px 15px;
+}
+#reg p{
+  color:rgba(0, 0, 0, 0.6);;
+  font-size: 12px;
+  margin:0px 0px 10px;
+  padding:0px 20px 0px 0px;
+}
+#reg h2{
+  color:#f19537;
+  font-size: 27px;
+  margin:0px 0px 20px;
+
+}
+
+/* =============================================================== */
+/* Home */
+
+#div1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.pexels.com/photos/2422461/pexels-photo-2422461.jpeg?cs=srgb&dl=pexels-josh-hild-2422461.jpg&fm=jpg);
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+#div11{
+    color:white;
+    height:50%;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+#d1in{
+  width: 75%;
+  height: 50px;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+}
+#d1in:focus{
+  outline: none;
+}
+#d1h1{
+  font-size: 40px;
+  margin: 0px 0px 20px;
+}
+#d1p{
+  font-size: 24px;
+  margin: 0px 0px 35px;
+  font-weight: 100;
+}
+
+/* ============================================================== */
+/* CARDS */
+
+#carddiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.card{
+  position: relative;
+  height: 400px;
+  width: 260px;
+  border-radius:8px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex column;
+  margin:0px 10px 20px;
+}
+
+.card img{
+  width:100%;
+  height:100%;
+  transition-duration: 0.2s;
+  
+}
+.card img:hover{
+  transform:scale(1.1);
+  filter: brightness(50%);
+}
+.carddata{
+ color: white;
+ position: relative;
+ bottom: 80px;
+ text-align: center;
+ margin-left:auto;
+
+}
+.cdh5{
+  font-size: 20px;
+  margin:0px 0px 8px;
+}
+.cdp{
+  font-size: 16px;
+  margin:0px 0px 16px;
+}
+
+/* ================================================================ */
+/* Footer */
+
+#foot{
+  background: #f1f1f1;
+    width: 100%;
+    padding: 16px 0px;
+    color: #999;
+}
+#foot span{
+  margin-left: 85px;
+}
+
+/* =============================================================== */
+/* Mainpages  */
+
+#maindiv{
+  display:flex column;
+  align-items: center;
+}
+#mdiv1{
+  height:60vh;
+  padding:100px 75px;
+  margin-bottom: 40px;
+}
+#mdiv1 h1{
+  margin:0px 0px 8px;
+  font-size: 40px;
+  color:#212529;
+}
+#mdiv1 p{
+  margin:0px 0px 8px;
+  font-size: 24px;
+  color:#212529;
+}
+#mdiv11{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: solid #999999 1px;
+  border-bottom: solid #999999 1px;
+  padding:20px 0px;
+  margin:0px 0px 48px;
+}
+#mdiv111,#mdiv112,#mdiv113{
+  display:flex;
+  align-items: center;
+  border-left:solid  #999999 1px;
+  border-right: solid  #999999 1px;
+  padding:0px 20px
+  
+}
+.tab{
+  padding: 6px 12px;
+  margin-right:10px;
+}
+
+/* ============================================================ */
+/* Mainpage CARDS*/
+
+#mdiv2{
+  padding:10px 75px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mdcard{
+  height: 345px;
+  width: 250px;
+  border: solid 1px #99999993 ;
+  position: relative;
+  margin: 0px 20px 20px 0px;
+  border-radius: 10px;
+}
+.mdcard img{
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.mdcard img:hover{
+  filter:brightness(50%);
+}
+.p1{
+  width: 50%;
+  color: #fff;
+  background-color: darkorange;
+  padding: 10px 10px;
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  text-decoration: solid;
+  box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+.h51{
+  margin:-8px 0px;
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 44px;
+  padding:10px
+}
+.p2{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 40px;
+  right: 0px;
+  padding:10px
+}
+.h5{
+  font-size: 1.3rem;
+  position: absolute;
+  bottom: 12px;
+  padding:10px
+}
+.p3{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 12px;
+  right: 0px;
+  padding:10px
+}
+
+/* =============================================================== */
+/* Subpages */
+
+#carousal{
+  width:700px;
+  height:500px;
+  overflow: hidden;
+}
+#carousal img{
+  width:100%;
+  height:500px;
+}
+#subdiv{
+  border: 1px solid   #eee;
+  width:730px;
+  height:1230px;
+  margin:100px 80px 70px;
+  border-radius: 4px;
+  padding: 16px;
+}
+#subdiv h1{
+  font-size: 40px;
+  color:#212529;
+  margin:0px 0px 8px;
+}
+#subdiv p{
+  font-size: 20px;
+  color:#999;
+  margin: 0px 0px 16px;
+
+}
+#subdiv hr{
+  margin:16px 0px;
+  color:#212529;
+}
+#subdiv h5{
+  font-size:20px;
+  margin:0px 0px 8px;
+  color:#212529;
+}
+#subdiv #div{
+  width: 703px;
+  height:530px;
+  font-size: 15px;
+  color:#212529;
+  line-height:25px;
+}
+
+
+
+
+  
